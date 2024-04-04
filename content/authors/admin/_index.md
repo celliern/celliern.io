@@ -1,124 +1,129 @@
 ---
 # Display name
-title: 吳健雄
-
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
-
-# Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
-
-# Status emoji
-status:
-  icon: ☕️
+title: Nicolas Cellier
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Ingénieur de recherche
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+- name: IMT Mines Albi, Centre génie industriel
+  url: https://cgi.imt-mines-albi.fr/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Ici pour résoudre des problèmes et techniques avec un ordinateur.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+- Support numérique à la recherche
+- Gestion des données (récupération, stockage, analyse et visualisation)
+- Modélisation / Simulation
+- Mécanique de fluides et phénomènes de transfert
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+  - course: Doctorat
+    institution: Université de Savoie Mont-Blanc
+    year: 2018
+  - course: Génie des procédés industriels
+    institution: Université de Technologie de Compiègne
+    year: 2014
 
-# Skills
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
-  - name: Technical
+  - name: Langages
     items:
       - name: Python
         description: ''
-        percent: 80
-        icon: python
-        icon_pack: fab
-      - name: Data Science
-        description: ''
         percent: 100
-        icon: chart-line
-        icon_pack: fas
-      - name: SQL
+      - name: Julia
         description: ''
-        percent: 40
-        icon: database
-        icon_pack: fas
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
+        percent: 80
+      - name: Rust
         description: ''
         percent: 60
-        icon: person-hiking
-        icon_pack: fas
-      - name: Cats
+  - name: Outils
+    items:
+      - name: Résolution d'EDP
         description: ''
         percent: 100
-        icon: cat
-        icon_pack: fas
-      - name: Photography
+      - name: Extraction de données
         description: ''
         percent: 80
-        icon: camera-retro
-        icon_pack: fas
+      - name: Analyse de données
+        description: ''
+        percent: 90
+      - name: Visualisation
+        description: ''
+        percent: 80
 
 # Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
+# For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/gcushen
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/
-  # Link to a PDF of your resume/CV.
-  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-  # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
+- icon: twitter
+  icon_pack: fab
+  name: '\@celliernic'
+  link: 'https://twitter.com/celliernic'
+- icon: github
+  icon_pack: fab
+  name: Mes projets de développement
+  link: 'https://github.com/'
+- icon: Mastodon
+  icon_pack: fab
+  name: Mes projets de développement
+  link: 'https://mastodon.recherche-et-cie.org/@celliern'
+
+# Link to a PDF of your resume/CV.
+# To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
+# and uncomment the lines below.
+- icon: cv
+  icon_pack: ai
+  link: uploads/resume.pdf
+
+# Enter email to display Gravatar (if Gravatar enabled in Config)
+email: "contact@celliern.io"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
+
+lang: fr
+
+user_groups:
+- Researchers
+- Visitors
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-{style="text-align: justify;"}
+
+Diplômé d'une thèse et provenant d'une école d'ingénieur (spécialité génie des
+procédés industriel), j'ai développé une série d'expertises autour des outils
+numériques destinés aux scientifiques (voir mes différents projets): outil
+d'aide à la résolution d'EDP, analyse de séries temporelles (particulièrement
+données provenant d'habitats instrumentés), acquisition de données
+expérimentales, visualisation scientifique...
+
+Si je suis capable de développer avec des outils bas niveau, j'affectionne
+particulièrement le langage Python que je pratique depuis plusieurs années. Je
+développe également en Julia dès lors que la vitesse d'exécution des outils
+devient primordiale.
+
+En plus de mes activités de recherche, j'ai une activité indépendante de
+consultance, sous-traitance et formation sur les outils numériques pour résoudre
+des problématiques scientifiques et d'ingénierie.
+
+Cela concerne en particulier les besoins de modélisation et de simulation (dans
+de nombreux domaines physiques, avec gestion des évolutions dans l'espace et
+dans le temps), ainsi que la gestion des données (à la fois la récupération
+automatisée des données, leur stockage, les analyses statistiques et la
+visualisation).
+
+Ma spécialité principale est la résolution de modèles physiques décrites via des
+équations aux dérivées partielles (EDP), particulièrement celles décrivant les
+écoulements à surface libre (type équation de Saint-Venant) couplé avec du
+transfert de chaleur.
+
+<!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
